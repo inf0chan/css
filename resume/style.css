@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: cornsilk;
+  margin: 40px;
+}
+hr{
+  width: 80%;
+}
+header {
+  line-height: 0.5;
+}
+header h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+header p {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.main {
+  width: 70%;
+}
+.sidebar {
+  border: 2px solid black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 30%;
+  text-align: center;
+}
+.sidebar ol {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.sidebar figcaption {
+  font-style: italic;
+}
+.sidebar #contact h3 {
+  text-decoration: double underline;
+}
+.sidebar #skills h3 {
+  text-decoration: double underline;
+}
+.sidebar #languages h3 {
+  text-decoration: double underline;
+}
+.sidebar #hobbies h3 {
+  text-decoration: double underline;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+#profile h2 {
+  text-decoration: double underline;
+}
+#work-experience h2 {
+  text-decoration: double underline;
+}
+#frontend-developer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#frontend-developer h3 {
+  text-decoration: underline;
+}
+#frontend-developer p {
+  margin-right: 70px;
+  font-style: italic;
+  line-height: 0.1;
+}
+#graphic-designer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#graphic-designer h3 {
+  text-decoration: underline;
+}
+#graphic-designer p {
+  margin-right: 70px;
+  font-style: italic;
+  line-height: 0.1;
+}
+#education h2 {
+  text-decoration: double underline;
+}
+#BCA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#high-school {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#education h3 {
+  text-decoration: underline;
+}
+#education p {
+  margin-right: 70px;
+  font-style: italic;
+  line-height: 0.1;
+}
+footer #sig {
+  text-align: center;
+  font-size: px;
+  font-style: italic;
+}
+#form {
+  display: fixed;
+  border: 2px solid black;
+  padding: 30px;
+  width: 50%;
+  margin: 50px 150px auto;
+  text-align: center;
+}
+#form h2 {
+  text-decoration: double underline;
+}
