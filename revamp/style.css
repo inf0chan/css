@@ -6,14 +6,44 @@
   border: 2px solid black;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 28px;
 }
-aside {
+
+.left {
   background: #111;
   color: white;
-  padding: 40px 25px;
+  padding: 35px 10px;
+}
+.left .contact {
+  border-bottom: 2px solid #c89d3d;
+}
+.left .contact dl dt {
+  color: #c89d3d;
+}
+.left .contact dl dd {
+  margin-inline-start: 0;
+  font-style: italic;
+}
+.left .skills {
+  border-bottom: 2px solid #c89d3d;
+}
+.left .lang {
+  border-bottom: 2px solid #c89d3d;
+}
+.left .hobb {
+  border-bottom: 2px solid #c89d3d;
 }
 .content {
   padding: 40px;
+}
+.content header {
+  border-bottom: 8px solid grey;
+}
+.content .prof {
+  border-bottom: 2px solid #c89d3d;
+}
+.content .work {
+  border-bottom: 2px solid #c89d3d;
 }
 .work #time1 {
   margin-left: 55px;
@@ -24,6 +54,9 @@ aside {
   margin-left: 125px;
   font-style: italic;
   color: #c89d3d;
+}
+.content .edu {
+  border-bottom: 2px solid #c89d3d;
 }
 .edu #time3 {
   margin-left: 190px;
@@ -38,19 +71,19 @@ aside {
 article {
   margin-bottom: 25px;
 }
+
 .profile img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #c89d3d;
   border-radius: 50%;
+  border-color: #c89d3d;
   object-fit: cover;
-}
-hr {
-  border: 1px solid #c89d3d;
-  margin: 10px 0 20px;
 }
 .resume blockquote {
   text-align: center;
   font-style: italic;
+  border-bottom: 2px solid #c89d3d;
 }
 .resume footer #sigadd {
   font-style: italic;
