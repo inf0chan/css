@@ -1,10 +1,10 @@
 .resume {
-  width: 900px;
+  width: 1200px;
   margin: auto;
   display: grid;
   grid-template-columns: 35% 65%;
   border: 2px solid black;
-  font-size: 18px;
+
   font-family: Arial, Helvetica, sans-serif;
   line-height: 28px;
 }
@@ -13,6 +13,7 @@
   background: #111;
   color: white;
   padding: 35px 10px;
+  font-size: 14px;
 }
 .left .contact {
   border-bottom: 2px solid #c89d3d;
@@ -35,9 +36,11 @@
 }
 .content {
   padding: 40px;
+  font-size: 16px;
 }
-.content header {
+.content header h3{
   border-bottom: 8px solid grey;
+  
 }
 .content .prof {
   border-bottom: 2px solid #c89d3d;
@@ -46,12 +49,12 @@
   border-bottom: 2px solid #c89d3d;
 }
 .work #time1 {
-  margin-left: 55px;
+  margin-left: 205px;
   font-style: italic;
   color: #c89d3d;
 }
 .work #time2 {
-  margin-left: 125px;
+  margin-left: 275px;
   font-style: italic;
   color: #c89d3d;
 }
@@ -59,13 +62,15 @@
   border-bottom: 2px solid #c89d3d;
 }
 .edu #time3 {
-  margin-left: 190px;
-  font-style: italic;
+  margin-left: 350px;
+  font-style:italic;
+  font-weight: bold;
   color: #c89d3d;
 }
 .edu #time4 {
-  margin-left: 130px;
+  margin-left: 290px;
   font-style: italic;
+  font-weight: bold;
   color: #c89d3d;
 }
 article {
@@ -73,8 +78,8 @@ article {
 }
 
 .profile img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 5px solid #c89d3d;
   border-radius: 50%;
   border-color: #c89d3d;
